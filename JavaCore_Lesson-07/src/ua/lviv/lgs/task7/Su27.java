@@ -14,19 +14,19 @@ public class Su27 extends Plane implements TurboAcceleration, StealthTechnology,
 	@Override
 	public void turboAccelerate() {
 		int accSpeed = this.maxSpeed + (int) (Math.random() * this.maxSpeed);
-		System.out.println("Турбоускорение запущено. Скорость самолета " + accSpeed + " км/час");
+		System.out.println("РўСѓСЂР±РѕСѓСЃРєРѕСЂРµРЅРёРµ Р·Р°РїСѓС‰РµРЅРѕ. РЎРєРѕСЂРѕСЃС‚СЊ СЃР°РјРѕР»РµС‚Р° " + accSpeed + " РєРј/С‡Р°СЃ");
 	}
 
 	@Override
 	public void becomeStealth() {
 		int unvisibleTime = (int) (Math.random() * 1000);
-		System.out.println("Запущена технология Стелс. Самолет исчез с радаров на " + unvisibleTime + " cек");
+		System.out.println("Р—Р°РїСѓС‰РµРЅР° С‚РµС…РЅРѕР»РѕРіРёСЏ РЎС‚РµР»СЃ. РЎР°РјРѕР»РµС‚ РёСЃС‡РµР· СЃ СЂР°РґР°СЂРѕРІ РЅР° " + unvisibleTime + " cРµРє");
 	}
 
 	@Override
 	public void nuclearStrike() {
 		int bombsAmount = (int) (Math.random() * (10 + 1));
-		System.out.println("Активирована функция ядерного удара. На объект будет сброшено " + bombsAmount + " боеголовок");
+		System.out.println("РђРєС‚РёРІРёСЂРѕРІР°РЅР° С„СѓРЅРєС†РёСЏ СЏРґРµСЂРЅРѕРіРѕ СѓРґР°СЂР°. РќР° РѕР±СЉРµРєС‚ Р±СѓРґРµС‚ СЃР±СЂРѕС€РµРЅРѕ " + bombsAmount + " Р±РѕРµРіРѕР»РѕРІРѕРє");
 	}
 
 }

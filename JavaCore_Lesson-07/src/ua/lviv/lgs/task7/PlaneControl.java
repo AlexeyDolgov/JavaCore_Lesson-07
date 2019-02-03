@@ -3,18 +3,18 @@ package ua.lviv.lgs.task7;
 public class PlaneControl {
 
 	public void moveUp() {
-		System.out.println("Самолет пролетел вверх " + Move.move() + " км");
+		System.out.println("РЎР°РјРѕР»РµС‚ РїСЂРѕР»РµС‚РµР» РІРІРµСЂС… " + Move.move() + " РєРј");
 	}
 
 	public void moveDown() {
-		System.out.println("Самолет пролетел вниз " + Move.move() + " км");
+		System.out.println("РЎР°РјРѕР»РµС‚ РїСЂРѕР»РµС‚РµР» РІРЅРёР· " + Move.move() + " РєРј");
 	}
 
 	public void moveLeft() {
-		System.out.println("Самолет пролетел влево " + Move.move() + " км");
+		System.out.println("РЎР°РјРѕР»РµС‚ РїСЂРѕР»РµС‚РµР» РІР»РµРІРѕ " + Move.move() + " РєРј");
 	}
 
 	public void moveRight() {
-		System.out.println("Самолет пролетел вправо " + Move.move() + " км");
+		System.out.println("РЎР°РјРѕР»РµС‚ РїСЂРѕР»РµС‚РµР» РІРїСЂР°РІРѕ " + Move.move() + " РєРј");
 	}
 }

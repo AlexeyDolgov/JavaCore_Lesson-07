@@ -16,16 +16,16 @@ public abstract class Plane {
 
 	public void startEngines() {
 		int countdown = 20 + (int) (Math.random() * (68 + 1));
-		System.out.println("Запускаю двигатели. Взлет возможен через " + countdown + " сек");
+		System.out.println("Р—Р°РїСѓСЃРєР°СЋ РґРІРёРіР°С‚РµР»Рё. Р’Р·Р»РµС‚ РІРѕР·РјРѕР¶РµРЅ С‡РµСЂРµР· " + countdown + " СЃРµРє");
 	}
 
 	public void takeoffPlane() {
 		double distance = (Math.random() * 1000);
-		System.out.println("Произвожу взлет. Самолет с полными баками проедет " + distance + " м");
+		System.out.println("РџСЂРѕРёР·РІРѕР¶Сѓ РІР·Р»РµС‚. РЎР°РјРѕР»РµС‚ СЃ РїРѕР»РЅС‹РјРё Р±Р°РєР°РјРё РїСЂРѕРµРґРµС‚ " + distance + " Рј");
 	}
 
 	public void landingPlane() {
-		System.out.println("Выполняю посадку. Начинаю снижение...");
+		System.out.println("Р’С‹РїРѕР»РЅСЏСЋ РїРѕСЃР°РґРєСѓ. РќР°С‡РёРЅР°СЋ СЃРЅРёР¶РµРЅРёРµ...");
 	}
 
 	public void moveUp() {

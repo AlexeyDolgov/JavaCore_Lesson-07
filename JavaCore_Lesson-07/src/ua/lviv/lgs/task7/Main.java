@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 
-		Su27 t10c = new Su27(21935, 5932, 16300, 1350, "ρεπϋι");
+		Su27 t10c = new Su27(21935, 5932, 16300, 1350, "ΡΠµΡ€Ρ‹ΠΉ");
 
 		t10c.startEngines();
 		t10c.takeoffPlane();
